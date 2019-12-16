@@ -1,6 +1,3 @@
-// Copyright 2018 The Chromium Authors. All rights reserved.
-// Use of this source code is governed by a BSD-style license that can be
-// found in the LICENSE file.
 
 package io.flutter.plugins.webviewflutter;
 
@@ -8,10 +5,14 @@ import android.annotation.TargetApi;
 import android.content.Context;
 import android.hardware.display.DisplayManager;
 import android.os.Build;
+
+import com.tencent.smtt.sdk.ValueCallback;
+import com.tencent.smtt.sdk.WebViewClient;
 import android.os.Handler;
 import android.view.View;
-import android.webkit.WebStorage;
-import android.webkit.WebViewClient;
+
+import com.tencent.smtt.sdk.WebStorage;
+
 import io.flutter.plugin.common.BinaryMessenger;
 import io.flutter.plugin.common.MethodCall;
 import io.flutter.plugin.common.MethodChannel;
