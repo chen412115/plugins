@@ -220,7 +220,7 @@ public class FlutterWebView implements PlatformView, MethodCallHandler {
     }
     webView.evaluateJavascript(
         jsString,
-        new android.webkit.ValueCallback<String>() {
+        new ValueCallback<String>() {
           @Override
           public void onReceiveValue(String value) {
             result.success(value);
