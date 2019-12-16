@@ -10,7 +10,8 @@ import android.content.Context;
 import android.util.Log;
 import android.view.View;
 import android.view.inputmethod.InputMethodManager;
-import android.webkit.WebView;
+
+import com.tencent.smtt.sdk.WebView;
 
 /**
  * A WebView subclass that mirrors the same implementation hacks that the system WebView does in
